@@ -1,8 +1,9 @@
 function Rectangle(a, b) {
-    let obj = {};
-    obj.length = a;
-    obj.width = b;
-    obj.perimeter = (a + b) * 2;
-    obj.area = a * b;
+    let obj = {
+        length: a,
+        width: b,
+        perimeter: (a + b) * 2,
+        area: a * b,
+    }
     return obj;
 }
