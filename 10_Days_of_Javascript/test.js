@@ -19,4 +19,4 @@ function fruitsObj(arr) {
     }, {});
 }
 
-console.log(fruitsObj(fruits)); 
+console.log(fruitsObj(fruits));
